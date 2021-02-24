@@ -27,3 +27,18 @@ console.log(`${withSal}`)
 
 petNames.push('Sal')
 console.log(`${petNames}`)
+
+// f. Get the third name in the pets array and output it to the console in this format:
+// The Third pet is named XXXX.
+
+let thirdPet = petNames[2]
+console.log(`The third pet is named ${thirdPet}`)
+
+// g. Get a count of how many items are in the array and output it to the console in this form:
+// The array has X names in it.
+
+let petCount = petNames.length
+console.log(`The array has ${petCount} names in it.`)
+
+petNames.pop()
+console.log(`${petNames}`)
